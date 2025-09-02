@@ -8,10 +8,11 @@ show =5
 
 print()
 
+# Write a recursive function to calculate the sum of first n natural numbers.
 def num(n):
     if(n==0):
-        return 
-    print(n)
-    num(-1)
+        return 0 
+    return num(n-1) +n
     
-num(5)
+sum = num(5)
+print(sum)
