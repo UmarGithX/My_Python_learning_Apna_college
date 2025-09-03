@@ -17,5 +17,6 @@
 
 q= open('donere.txt' , 'r+')
 w = q.write("now this will be only ")
+
 print(q.read())
 
