@@ -1,0 +1,4 @@
+ hi every one 
+ we are learning File 1/0 
+ using python 
+ like programming in python.
